@@ -12,11 +12,21 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.walkmydog.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_announcement"
+        android:name="com.example.walkmydog.ui.announcement.AnnouncementFragment"
+        android:label="@string/title_announcement"
+        tools:layout="@layout/fragment_announcement" />
 
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.example.walkmydog.ui.notifications.NotificationsFragment"
+        android:label="@string/title_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/navigation_messages"
+        android:name="com.example.walkmydog.ui.notifications.NotificationsFragment"
+        android:label="@string/title_messages"
+        tools:layout="@layout/fragment_messages" />
     <fragment
         android:id="@+id/navigation_notifications"
         android:name="com.example.walkmydog.ui.notifications.NotificationsFragment"

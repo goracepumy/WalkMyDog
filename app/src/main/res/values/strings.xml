@@ -1,6 +1,16 @@
 <resources>
     <string name="app_name">WalkMyDog</string>
+
     <string name="title_home">Home</string>
+    <string name="title_announcement">Announcement</string>
+    <string name="title_search">Search</string>
+    <string name="title_messages">Messages</string>
+    <string name="title_profile">Profile</string>
+
+
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+
+
+
 </resources>
