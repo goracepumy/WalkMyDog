@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModel
 class AnnouncementViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is dashboard Fragment"
+        value = "This is announcement Fragment"
     }
     val text: LiveData<String> = _text
 }
